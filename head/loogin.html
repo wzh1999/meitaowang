@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="css/global.css" type="text/css" rel="stylesheet" />
+    <link href="css/login.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="js/login.js"></script>
+</head>
+<body onload="initDep(),fill()">
+    <iframe src="head.html" width="100%" height="100px" frameborder="0" scrolling="no"></iframe>
+    <div id="allnav">
+        <div id="nav">
+            <ul>
+                <li class="yiji"><a href="#">全部商品分类<img src="images/arrow-down.gif" /></a>
+                    <ul>
+                        <li><a href="#">美食</a></li>
+                        <li><a href="#">旅游</a></li>
+                        <li><a href="#">酒店</a></li>
+                        <li><a href="#">电影</a></li>
+                        <li><a href="#">KTV</a></li>
+                        <li><a href="#">时尚</a></li>
+                        <li><a href="#">生活服务</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="#">团购</a></li>
+                <li><a href="#">美食</a></li>
+                <li><a href="#">电影</a></li>
+                <li><a href="#">KTV</a></li>
+                <li><a href="#">酒店订票</a></li>
+                <li><a href="#">购物</a></li>
+                <li><a href="#">品牌特卖</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div id="content">
+        <div id="register">
+            <form>
+                <fieldset>
+                    <!--对表单元素进行分组-->
+                    <legend>注册新用户</legend>
+                    <ul>
+                        <li><a href="javacript:void(0)" class="current" id="one1" onclick="setTab(1)">邮箱注册</a></li>
+                        <li><a href="javacript:void(0)" id="one2" onclick="setTab(2)">手机注册</a></li>
+                    </ul>
+                    <div class="box">
+                        <div id="emailreg">
+                            <form onsubmit="return check()" action="index.html">
+                               
+                            <p>
+                                <label for="txtEmail">邮箱:</label>
+                                <input name="" type="text" class="txt" id="txtEmail" onblur="checkEmil()" />
+                                <span id="mail">推荐使用qq邮箱</span>
+                            </p>
+                                <p>
+                                    <label for="userName" accesskey="n">用户名:</label>
+                                    <input name="" type="text" class="txt" id="userName" onblur="checkUser()" />
+                                    <span id="name">4-16字符，不能包含数字</span>
+                                </p>
+                                <p>
+                                    <label for="pwd1">创建密码:</label>
+                                    <input name="" type="text" class="txt" id="pwd1" onblur="checkpwd()" />
+                                    <span id="pass">6-32字符</span>
+                                </p>
+                                <p>
+                                    <label for="pwd2">确认密码:</label>
+                                    <input name="" type="text" class="txt" id="pwd2" onblur="checkpwds()"/>
+                                    <span id="pass1">请再次输入密码</span>
+                                </p>
+                                <p>
+                                    <label for="city">所在城市：</label>
+                                    <select class="txt" id="city" onchange="fill()">
+                                    </select>
+                                    <select class="txt" id="emp">
+                                    </select>
+                                </p>
+                                <p>
+                                    <label>验证码：</label>
+                                    <input name="" type="text" class="txt check" />
+                                    <img src="images/code_img.gif" style="vertical-align: bottom" />
+                                </p>
+                                <p>
+                                    <input type="image" class="btn" src="images/register.jpg" name="btnregister" onload="a()" />
+                                    <a href="#">《美淘网用户协议》</a>
+                                </p>
+                            </form>
+                        </div>
+                        <div id="phonereg" style="display:none">
+                            <p>
+                                <label>电话：</label>
+                                <input name="" type="text" class="txt" />
+                                <span>用于登陆和找回密码，不会公开</span>
+                            </p>
+                            <p>
+                                <label>短信验证码：</label>
+                                <input name="" type="text" class="txt" />
+                                <span>用请输入手机收到的验证码</span>
+                            </p>
+                            <p>
+                                <label>创建密码：</label>
+                                <input name="" type="text" class="txt" />
+                                <span>6-32字符，可使用字母、数字、符号</span>
+                            </p>
+                            <p>
+                                <label>确认密码：</label>
+                                <input name="" type="text" class="txt" />
+                                <span>请再次输入密码</span>
+                            </p>
+                            <p>
+                                <input type="image" class="btn" src="images/register.jpg" name="btnregister" onload="a()" />
+                                <a href="#">《美淘网用户协议》</a>
+                            </p>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div id="left">
+            <form>
+                <fieldset>
+                    <legend>登陆MEITAO.COM</legend>
+                    <ul>
+                        <li><a href="#" class="current" id="two1" onclick="setTab2(1)">邮箱用户</a></li>
+                        <li><a href="#" id="two2" onclick="setTab2(2)">手机用户</a></li>
+                    </ul>
+                    <div class="boxs">
+                        <div id="EmailUser">
+                            <p>
+                                <label for="Email">邮箱：</label>
+                                <input type="text" class="txt" id="Email" />
+                            </p>
+                            <p>
+                                <label for="password">密码：</label>
+                                <input type="text" class="txt" id="password" />
+                            </p>
+                            <p>
+                                <input type="image" class="bxn" src="images/login.jpg" name="btnLogin" onload="changeBtn()" />
+                                <a href="#">忘记密码？</a>
+                            </p>
+                        </div>
+                        <div id="TelUser" style="display:none">
+                            <p>
+                                <label for="tel">手机号：</label>
+                                <input type="text" class="txt" id="tel" />
+                            </p>
+                            <p>
+                                <label for="Password">密码：</label>
+                                <input type="text" class="txt" id="Possword" />
+                            </p>
+                            <p>
+                                <input type="image" class="btn" src="images/login.jpg" name="btnLogin" onload="changeBtn()" />
+                                <a href="#">忘记密码？</a>
+                            </p>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <iframe src="foot.html" width="100%" height="150px" frameborder="0" scollect="no"></iframe>
+</body>
+</html>

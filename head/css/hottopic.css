@@ -1,0 +1,352 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#head {
+    width: 1440px;
+    height: 70px;
+    background-color: #999999;
+}
+
+    #head ul {
+        width: 1214px;
+        height: 70px;
+        margin: 0px auto;
+    }
+
+        #head ul li {
+            float: left;
+            line-height: 70px;
+            margin-right: 20px;
+        }
+
+            #head ul li a {
+                color: white;
+                font: bold 15px Verdana,Geneva,sans-serif;
+            }
+
+            #head ul li.current:hover {
+                background-color: #666666;
+                height: 70px;
+            }
+
+            #head ul li.login {
+                color: white;
+                width: 200px;
+                text-align: right;
+            }
+
+                #head ul li.login a {
+                    color: orange;
+                }
+
+#banner img {
+    margin-top: -30px;
+}
+#list {
+    width:120px;
+    background-color:#ccc;
+    position:fixed;
+    top:200px;
+    right:0px;
+}
+    #list ul li {
+        height:45px;
+        line-height:45px;
+        border-bottom:1px solid orange;
+        text-align:center;
+        color:black;
+    }
+        #list ul li a {
+            color:black;
+        }
+        #list ul li:hover {
+            background-color:orange ;
+        }
+        #list ul li.title {
+            background-color:orange;
+        }
+/*豪华酒店*/
+#hotel #best {
+    background-image: url(images/topic/ztbg.jpg);
+    background-repeat: no-repeat;
+    width: 1014px;
+    height: 700px;
+    margin: 0px auto;
+}
+
+    #hotel #best h2 {
+        color: white;
+        line-height: 51px;
+        margin-left: 50px;
+    }
+
+    #hotel #best dl {
+        border: 1px solid #dedede;
+        width: 310px;
+        height: 290px;
+        padding: 10px;
+        float: left;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+        #hotel #best dl dd.name {
+            font-family: 黑体;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        #hotel #best dl dd {
+            font-size: 10px;
+            font-weight: bold;
+            line-height: 25px;
+        }
+
+            #hotel #best dl dd.price span {
+                font-family: 黑体;
+                font-weight: bold;
+                font-size: 18px;
+                color: orange;
+            }
+
+            #hotel #best dl dd.price {
+                float: left;
+                margin-right: 130px;
+            }
+
+            #hotel #best dl dd.number span {
+                font-family: 黑体;
+                font-weight: bold;
+                font-size: 18px;
+                color: orange;
+            }
+/*公寓酒店*/
+#hotel #flat {
+    background-image: url(images/topic/ztbg.jpg);
+    background-repeat: no-repeat;
+    width: 1014px;
+    margin: 0px auto;
+    height: 700px;
+}
+
+    #hotel #flat h2 {
+        color: white;
+        line-height: 51px;
+        margin-left: 50px;
+    }
+
+    #hotel #flat dl {
+        border: 1px solid #dedede;
+        width: 310px;
+        height: 290px;
+        padding: 10px;
+        float: left;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+        #hotel #flat dl dd.name {
+            font-family: 黑体;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        #hotel #flat dl dd {
+            font-size: 10px;
+            font-weight: bold;
+            line-height: 25px;
+        }
+
+            #hotel #flat dl dd.price span {
+                font-family: 黑体;
+                font-weight: bold;
+                font-size: 18px;
+                color: orange;
+            }
+
+            #hotel #flat dl dd.price {
+                float: left;
+                margin-right: 130px;
+            }
+
+            #hotel #flat dl dd.number span {
+                font-family: 黑体;
+                font-weight: bold;
+                font-size: 18px;
+                color: orange;
+            }
+/*度假首选*/
+#hotel #holiday {
+    background-image: url(images/topic/ztbg.jpg);
+    background-repeat: no-repeat;
+    width: 1014px;
+    margin: 0px auto;
+    height: 700px;
+}
+
+    #hotel #holiday h2 {
+        color: white;
+        line-height: 51px;
+        margin-left: 50px;
+    }
+
+    #hotel #holiday dl {
+        border: 1px solid #dedede;
+        width: 310px;
+        height: 290px;
+        padding: 10px;
+        float: left;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+        #hotel #holiday dl dd.name {
+            font-family: 黑体;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        #hotel #holiday dl dd {
+            font-size: 10px;
+            font-weight: bold;
+            line-height: 25px;
+        }
+
+            #hotel #holiday dl dd.price span {
+                font-family: 黑体;
+                font-weight: bold;
+                font-size: 18px;
+                color: orange;
+            }
+
+            #hotel #holiday dl dd.price {
+                float: left;
+                margin-right: 130px;
+            }
+
+            #hotel #holiday dl dd.number span {
+                font-family: 黑体;
+                font-weight: bold;
+                font-size: 18px;
+                color: orange;
+            }
+/*经济有爱*/
+#hotel #love {
+    background-image: url(images/topic/ztbg.jpg);
+    background-repeat: no-repeat;
+    width: 1014px;
+    margin: 0px auto;
+    height: 700px;
+}
+
+    #hotel #love h2 {
+        color: white;
+        line-height: 51px;
+        margin-left: 50px;
+    }
+
+    #hotel #love dl {
+        border: 1px solid #dedede;
+        width: 310px;
+        height: 290px;
+        padding: 10px;
+        float: left;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+        #hotel #love dl dd.name {
+            font-family: 黑体;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        #hotel #love dl dd {
+            font-size: 10px;
+            font-weight: bold;
+            line-height: 25px;
+        }
+
+            #hotel #love dl dd.price span {
+                font-family: 黑体;
+                font-weight: bold;
+                font-size: 18px;
+                color: orange;
+            }
+
+            #hotel #love dl dd.price {
+                float: left;
+                margin-right: 130px;
+            }
+
+#hotel #holiday dl dd.number span {
+    font-family: 黑体;
+    font-weight: bold;
+    font-size: 18px;
+    color: orange;
+}
+/*客栈情怀*/
+#hotel #inn {
+    background-image: url(images/topic/ztbg.jpg);
+    background-repeat: no-repeat;
+    width: 1014px;
+    margin: 0px auto;
+    height: 700px;
+}
+
+    #hotel #inn h2 {
+        color: white;
+        line-height: 51px;
+        margin-left: 50px;
+    }
+
+    #hotel #inn dl {
+        border: 1px solid #dedede;
+        width: 310px;
+        height: 290px;
+        padding: 10px;
+        float: left;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+        #hotel #inn dl dd.name {
+            font-family: 黑体;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        #hotel #inn dl dd {
+            font-size: 10px;
+            font-weight: bold;
+            line-height: 25px;
+        }
+
+            #hotel #inn dl dd.price span {
+                font-family: 黑体;
+                font-weight: bold;
+                font-size: 18px;
+                color: orange;
+            }
+
+            #hotel #inn dl dd.price {
+                float: left;
+                margin-right: 130px;
+            }
+
+#hotel #inndl dd.number span {
+    font-family: 黑体;
+    font-weight: bold;
+    font-size: 18px;
+    color: orange;
+}

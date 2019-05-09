@@ -1,0 +1,111 @@
+﻿#content #ordertable {
+    width:1024px;
+    height:400px;
+    border:1px solid #dedede;
+    margin:0px auto;
+    margin-bottom:20px;
+    padding:10px;
+}
+#content #ordertable ul li {
+    float:left;
+    height:78px;
+    font:bold 25px/78px Verdana,Geneva,sans-serif;
+}
+   #content #ordertable ul li.step {
+        background:url(images/cart/step1.jpg) no-repeat center;
+        width:679px;
+        margin-left:30px;
+    }
+#content #ordertable .btn {
+    border:1px solid #dedede;
+    background-color:white;
+    width:16px;
+    height:16px;
+}
+#content #ordertable .txt {
+    width:60px;
+    height:30px;
+    border:1px solid #dedede;
+    text-align:center;
+    font:15px/30px Verdana,Geneva,sans-serif;
+}
+    #content #ordertable .txt:hover {
+        border:1px solid red;
+    }
+#content #ordertable  table {
+    border:1px solid #dedede;
+    border-collapse:collapse;
+    width:100%;
+    clear:both;
+}
+    #content #ordertable table tr {
+        height:50px;
+        border-bottom:1px dashed #dedede;
+    }
+    #content #ordertable table td, #content #ordertable th {
+        text-align:center;
+        vertical-align:central /*单元格的内容垂直居中*/
+    }
+#content #ordertable td.item {
+    width:260px;
+    height:60px;
+    text-align:left;
+}
+    #content #ordertable td.item img {
+        margin-right:10px;
+        vertical-align :baseline;
+    }
+#content #ordertable tables tr td.cal {
+    text-align:right ;
+}
+#content #ordertable table tr td.cal span {
+    font:bold 25px Verdana,Geneva,sans-serif;
+    color:orange;
+}
+#content #ordertable p {
+    text-align:right;
+}
+/*中部第二块css样式*/
+#content #lastview {
+    width:1024px;
+    height:280px;
+    margin:0px auto;
+    border:1px solid #dedede;
+   padding:10px;
+}
+    #content #lastview h2 {
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+#content #lastview dl {
+    float:left;
+    height:222px;
+    width:210px;
+    margin-right:20px;
+}
+    #content #lastview dl dd {
+        line-height:25px;
+    }
+        #content #lastview dl dd span {
+            font:bold 15px Verdana,Geneva,sans-serif;
+            color:#C30;
+        }
+        #content #lastview dl dd.price {
+            float:left;
+        }
+        #content #lastview dl dd.num {
+             float:right;
+        }
+        #content #lastview dl dd.add {
+            clear:both ;
+            float:right;
+        }
+            #content #lastview dl dd.add a {
+                color:#f90;
+            }
+                #content lastview dl dd.add a:hover {
+                    text-decoration:underline ;
+                }
+            #content #lastview dl dd.add span {
+
+            }

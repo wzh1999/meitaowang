@@ -1,0 +1,131 @@
+﻿#content {
+    width:1024px;
+    height:600px;
+    margin:0px auto;
+}
+    #content #left {
+        width:700px;
+        height:550px;
+        float:left;
+        border:1px solid #dedede;
+    }
+        #content #left hr {
+            border:1px dashed #dedede;
+        }
+        #content #left ul li {
+            line-height:20px;
+            font-weight :bold;
+        }
+        #content #left ul {
+            list-style:circle;
+            padding-left:30px;
+            margin-bottom:10px;
+        }
+            #content #left ul .tel {
+                list-style:none;
+                padding-left:0px;
+            }
+                #content #left ul .tel span {
+                    color:red;
+                }
+        #content #left h3 {
+            padding-left:10px;
+            margin-top:10px;
+            margin-bottom:10px;
+            color:#808080;
+        }
+            #content #left h3 span {
+                font-size:20px;
+                color:orange;
+            }
+
+        #content #left .cash {
+            list-style:none;
+        }
+            #content #left .cash li span{
+                background-image:url(images/cart/jt1.jpg);
+                width:15px;
+                height:13px;
+                float:left;
+                display:block;
+                margin-top:5px;
+            }
+            #content #left .cash li {
+                line-height:25px;
+                height:25px;
+                overflow:hidden ;
+            }
+                #content #left .cash li:hover {
+                    height:auto;
+                    cursor:pointer;/*改变鼠标的形状*/
+                }
+                    #content #left .cash li:hover span {
+                        background-image:url(images/cart/jt2.jpg);
+                    }
+        #content #left .jiesuan {
+            margin-top:50px;
+            color:black;
+            text-align:right;
+            margin-right:50px;
+        }
+        #content #left span img {
+            margin-left:500px;
+            
+        }
+    #content #right {
+        padding:10px;
+        width:280px;
+        height:400px;
+        float:right  ;
+        margin-top :0px;
+        border:1px solid #dedede;
+    }
+        #content #right h2 {
+            margin-bottom:10px;
+            margin-top:10px;
+        }   
+        #content #right ul li {         
+           clear:both;
+           font:bold 13px Verdana,Geneva,sens-serif;
+           line-height:30px;
+        }
+        #content #right ul li span.one {
+            background-image:url(images/cart/ass.jpg);
+            width:60px;
+            height:60px;
+            background-position:-10px 0px;
+            display:block;
+            float:left;
+            margin-bottom:15px;
+        }
+         #content #right ul li span.two {
+            background-image:url(images/cart/ass.jpg);
+            width:60px;
+            height:60px;
+            background-position:-10px -65px;
+            display:block;    
+            float:left;               
+        }
+       
+        #content #right dl, dd {
+            padding:0px;
+            margin:0px;
+        }
+            #content #right dl.help {
+                height:30px;
+                overflow:hidden;
+                width:237px;
+            }
+                #content #right dl.help dt {
+                    height:30px;
+                    font-size :13px;
+                    line-height:30px;
+                }
+                #content #right dl.help:hover {
+                    height:auto ;
+                    cursor:pointer;
+                }
+                #content #right dl.help dd {
+                    color:#999;
+                    font-size:12px;
+                }

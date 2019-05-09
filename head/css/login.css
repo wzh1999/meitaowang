@@ -1,0 +1,142 @@
+﻿#content {
+    width:1024px;
+    height:400px;
+    margin:0px auto;
+    
+}
+/*注册板块css样式*/
+#content #register {
+    float: left;
+    width: 550px;
+}
+
+#content fieldset {
+    color: #333;
+    border: 1px solid #dedede;
+}
+
+#content legend {
+    height: 36px;
+    font: 20px/30px Verdana,Geneva,sans-serif;
+    color: #f8ae00;
+    margin-left: 20px;
+}
+
+#content ul {
+    overflow: hidden;
+    margin-left: 12px;
+    width: 100%;
+}
+
+    #content ul li {
+        float: left;
+    }
+
+        #content ul li a {
+            display: block;
+            width: 75px;
+            height: 25px;
+            line-height: 25px;
+            text-align: center;
+            margin-right: 5px;
+            background-image: url(images/gray.gif);
+        }
+
+            #content ul li a.current {
+                color: white;
+                background-image: url(images/current.gif);
+            }
+
+#content #register .box {
+    background: #fafafa;
+    overflow: hidden;
+    height: 302px;  
+}
+#register ul li {
+     display: block;
+            width: 75px;
+            height: 25px;
+            line-height: 25px;
+            text-align: center;
+            margin-right: 5px;
+            background-image: url(images/gray.gif);
+}
+
+    #content #register .box #emailreg {
+        padding: 15px 30px;
+        height: 302px;
+    }
+
+    #content #register .box #phonereg {
+        padding: 15px 30px;
+        height: 302px;
+    }
+
+#content #register #emailreg p {
+    margin-bottom: 10px;
+}
+
+#content #register #phonereg p {
+    margin-bottom: 22px;
+}
+
+#content .txt {
+    border: 1px solid #a5afc3;
+    height: 25px;
+    line-height: 25px;
+}
+
+#content input.check {
+    width: 100px;
+}
+
+#content label {
+    width: 85px;
+    font-size: 14px;
+    display: block;
+    float: left;
+    text-align: right;
+    color: #666;
+    height: 27px;
+    line-height: 27px;
+}
+
+#content input.btn {
+    border: none;
+    vertical-align: central; /*图片提交按钮和文字垂直居中*/
+    margin-right: 10px;
+}
+/*右边登陆css样式*/
+#content #left {
+    width:320px;
+    float:left;
+    margin-left:50px;
+}
+#content #left .boxs {
+    background: #fafafa;
+    overflow: hidden;
+    height: 150px;  
+
+}
+    /*#content #left ul li {
+    display:block;
+    width:75px;
+    height:25px;
+    line-height:25px;
+    text-align:center;
+    margin-right:5px;
+    background
+    }*/
+    #content #left .boxs #EmailUser,#content #left .boxs #TelUser {
+        padding:15px;
+        height:100px;
+    }  
+#content #left p {
+    margin-bottom:10px;
+}
+#content #left #EmailUser{
+    margin-bottom:10px;
+}
+#content #left #TelUser {
+    margin-bottom:10px;
+}

@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="css/global.css" type="text/css" rel="stylesheet" />
+    <link href="css/cart.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript">
+       
+        function check()
+        {
+            var cd1 = document.getElementById("qx");
+            var chs = document.getElementsByName("tim");
+            for (var i = 0; i <chs.length; i++) {
+                chs[i].checked = cd1.checked;
+            }
+        }
+    </script>
+    <title></title>
+</head>
+<body>
+    <iframe src="head.html" width="100%" height="100px" frameborder="0" scrolling="no"></iframe>
+    <div id="allnav">
+        <div id="nav">
+            <ul>
+                <li class="yiji"><a href="#">全部商品分类<img src="images/arrow-down.gif" /></a>
+                    <ul>
+                        <li><a href="#">美食</a></li>
+                        <li><a href="#">旅游</a></li>
+                        <li><a href="hottopic.html">酒店</a></li>
+                        <li><a href="#">电影</a></li>
+                        <li><a href="#">KTV</a></li>
+                        <li><a href="#">时尚</a></li>
+                        <li><a href="#">生活服务</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html" target="_parent">首页</a></li>
+                <li><a href="#">团购</a></li>
+                <li><a href="#">美食</a></li>
+                <li><a href="#">电影</a></li>
+                <li><a href="#">KTV</a></li>
+                <li><a href="#">酒店订票</a></li>
+                <li><a href="#">购物</a></li>
+                <li><a href="#">品牌特卖</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="content">
+        <div id="ordertable">
+            <ul>
+                <li>
+                    <img src="images/cart/g1.jpg" /></li>
+                <li>我的购物车</li>
+                <li class="step"></li>
+            </ul>
+            <form>
+                <table>
+                    <tr>
+                        <th>
+                            <input type="checkbox"  id="qx" onclick="check()" />全选</th>
+                        <th>项目</th>
+                        <th>状态</th>
+                        <th>类型/数量</th>
+                        <th>单价</th>
+                        <th>小计</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="tim"/></td>
+                        <td class="item">
+                            <a href="detail.html">
+                                <img src="images/cart/item1.jpg" align="left" />
+                                欢迎空间量贩式KTV：欢唱套餐2选1，国家法定节假日需到店另付20元可升级
+                            </a>
+                        </td>
+                        <td>可购买</td>
+
+                        <td>
+                            <input type="button" value="-" class="btn" />
+                            <input class="txt" type="text" value="1" />
+                            <input class="btn" type="button" value="+" />
+                        </td>
+                        <td>&yen;39.9</td>
+                        <td>&yen;39.9</td>
+                        <td><a href="#">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox"  name="tim"/></td>
+                        <td class="item">
+                            <a href="detail.html">
+                                <img src="images/cart/item2.jpg" align="left" />
+                                途乐时尚主题量贩KTV：任选1小时欢唱，可升级，提供免费的WIfI
+                            </a>
+                        </td>
+                        <td>可购买</td>
+                        <td>
+                            <input type="button" value="-" class="btn" />
+                            <input class="txt" type="text" value="1" />
+                            <input class="btn" type="button" value="+" />
+                        </td>
+                        <td>&yen;3</td>
+                        <td>&yen;3</td>
+                        <td><a href="#">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="7" class="cal" >已选<span>2</span>件商品  应付总额：<span>￥42.9</span></td>
+                    </tr>
+                </table>
+                <p>
+                  <a href="check.html" target ="_parent"><img src="images/cart/tj.png" /></a></p>
+                
+            </form>
+        </div> 
+        <div id="lastview">
+            <h2>购买了本团购的用户还看了</h2>
+            <dl>
+                <dt><img src="images/cart/view1.jpg" /></dt>
+                <dd>【西北湖】金鲨国际美食百汇：自助晚餐1位，西北湖店需到店补差价...</dd>
+                <dd class="price"><span>￥118</span>门店价168</dd>
+                <dd class="num">已售<span>1691</span></dd>
+                <dd class="add"><span></span><a href ="#">加入购物车</a></dd>
+            </dl>
+             <dl>
+                <dt><img src="images/cart/view2.jpg" /></dt>
+                <dd>【西北湖】金鲨国际美食百汇：自助晚餐1位，西北湖店需到店补差价...</dd>
+                <dd class="price"><span>￥118</span>门店价168</dd>
+                <dd class="num">已售<span>1691</span></dd>
+                <dd class="add"><span></span><a href ="#">加入购物车</a></dd>
+            </dl>
+             <dl>
+                <dt><img src="images/cart/view3.jpg" /></dt>
+                <dd>【西北湖】金鲨国际美食百汇：自助晚餐1位，西北湖店需到店补差价...</dd>
+                <dd class="price"><span>￥118</span>门店价168</dd>
+                <dd class="num">已售<span>1691</span></dd>
+                <dd class="add"><span></span><a href ="#">加入购物车</a></dd>
+            </dl>
+             <dl>
+                <dt><img src="images/cart/view4.jpg" /></dt>
+                <dd>【西北湖】金鲨国际美食百汇：自助晚餐1位，西北湖店需到店补差价...</dd>
+                <dd class="price"><span>￥118</span>门店价168</dd>
+                <dd class="num">已售<span>1691</span></dd>
+                <dd class="add"><span></span><a href ="#">加入购物车</a></dd>
+            </dl>
+        </div>
+    </div>
+    <iframe src ="foot.html" width="100%" height="200px" frameborder="0" scrolling="no"></iframe>
+</body>
+</html>

@@ -1,0 +1,218 @@
+﻿
+/*中部大盒子*/
+#detail {
+    width: 1024px;
+    height: 3000px;
+    /*border: 1px solid red;*/
+    margin: 0px auto;
+    /*position:relative;*/
+}
+/*中部左边 第一块内容*/
+#introl {
+    width: 740px;
+    height: 3000px;    
+}
+
+#center-top {
+    width: 740px;
+    height: 370px;
+    border: 1px solid #dedede;
+     
+}
+
+    #center-top h2 {
+        height: 40px;
+        line-height: 40px;
+        border-bottom: 1px dashed #dedede;
+        text-align: center;
+    }
+
+    #center-top ul {
+        float: left;
+        padding: 15px;
+    }
+
+        #center-top ul.picture {
+            width: 360px;
+        }
+
+            #center-top ul.picture li {
+                float: left;
+            }
+
+                #center-top ul.picture li.ps {
+                    margin-right: 10px;
+                }
+
+        #center-top ul.info li {
+            height: 25px;
+            line-height: 25px;
+        }
+
+            #center-top ul.info li.buy {
+                height: 40px;
+                margin-top: 10px;
+            }
+
+            #center-top ul.info li.txt {
+                height: 50px;
+                border: 1px solid #d0d1a7;
+                background-color: #feffed;
+                padding: 10px;
+            }
+
+            #center-top ul.info li span {
+                font: bold 16px Verdana,Geneva,sans-serif;
+                color: orange;
+            }
+
+#menubox {
+    width: 740px;
+    background-image: url(images/tabbg.gif);
+    height: 28px;
+    
+}
+
+    #menubox li {
+        float: left;
+        width: 114px;
+        text-align: center;
+        height: 27px;
+        line-height: 27px;
+        color: #949694;
+        font-weight: bold;
+    }
+
+        #menubox li:hover {
+            width: 116px;
+            border-left: 1px solid #a8c29f;
+            border-top: 1px solid #a8c29f;
+            border-right: 1px solid #a8c29f;
+            background-image: url(images/tabc.gif);
+        }
+/*中部第二部分内容*/
+#intro2 {
+    width: 740px;
+    height: 2600px;
+    margin-top: 20px;
+    border: 1px solid #dedede;   
+}
+
+    #intro2 #tab {
+        width: 740px;
+        height: 1000px;
+        padding-left: 15px;
+    }
+
+        #intro2 #tab #tab1 h2 {
+            height: 40px;
+            line-height: 40px;
+        }
+
+        #intro2 #tab #tab1 dl dt {
+            float: left;
+            margin-right: 10px;
+        }
+
+        #intro2 #tab #tab1 dl dd {
+            height: 40px;
+            overflow: hidden;
+        }
+
+            #intro2 #tab #tab1 dl dd span {
+                font: bold 15px Verdana,Geneva,sans-serif;
+                line-height: 40px;
+                color: #f90;
+            }
+
+            #intro2 #tab #tab1 dl dd:hover {
+                height: auto;
+                /*cursor:pointer ;*/
+            }
+/*中部第三部分内容*/
+#intro2 #tab #tab2 h2 {
+    clear:left;
+    margin-bottom:10px;
+}
+        #intro2 #tab #tab2 table {
+            width:710px;
+            height:200px;
+            border:1px solid #dedede;
+            border-collapse:collapse;
+            padding:0px 10px;
+        }
+            #intro2 #tab #tab2 table td, #intro2 #tab #tab2 table th {
+           border:1px solid #dedede;
+           text-align:center;
+           vertical-align:central;/*垂直居中*/
+                 }
+        #intro2 #tab #tab2 p {
+            width:708px;
+            text-align:right;
+            line-height:30px;
+        }
+        #intro2 #tab #tab2 ul {
+            list-style:circle;
+            padding-left:15px;
+            
+        }
+            #intro2 #tab #tab2 ul li {
+                line-height:30px;
+            }
+        #intro2 #tab #tab2 #buyrule {
+            border:1px solid #dedede;
+            padding:15px;
+            background-color:#fffde8;
+            width:680px;
+        }
+            #intro2 #tab #tab2 #buyrule p {
+                text-align:left;
+            }
+                #intro2 #tab #tab2 #buyrule p span {
+                    font:bold 14px Verdana,Geneva,sans-serif;
+                }
+        #intro2 #tab #tab3 h2 {
+            margin-top:10px;
+            margin-bottom:10px;
+        }
+        #intro2 #tab #tab3 dl {
+            width:700px;
+        }
+            #intro2 #tab #tab3 dl dd {
+                font-weight:bold;
+                line-height:20px;
+            }
+        #intro2 #tab #tab4 {
+            width:700px;                 
+        }
+            #intro2 #tab #tab4 h2 {
+                margin-top:10px;
+                margin-bottom:10px;
+            }
+            #intro2 #tab #tab4 ul li{
+               width:700px;
+               height:100px;
+               border-bottom :1px dashed   #dedede;
+               padding-top:20px;
+            }
+        #intro2 #tab #ye {
+            margin-left:280px;
+            margin-top:20px;
+        }
+            #intro2 #tab #ye ul li {
+                width:20px;
+                height:20px ; 
+                display:block;    
+                float:left;
+                border:1px solid #dedede;   
+                margin:5px;      
+            }
+                #intro2 #tab #ye ul li a {
+                   padding:5px 5px 5px 6px;
+                }
+#detail #right-guanggao #middle-right-one,#middle-right-two,#middle-right-three,#middle-right-four{
+   margin-left:165px;
+}
+#detail #right-guanggao #middle-right-one {
+    margin-top:110px;
+}
